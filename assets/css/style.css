@@ -546,7 +546,7 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: #f7f7f7;
+  background: #fafafa;
   padding: 80px 0 60px 0;
 }
 #facts .counters span {
@@ -628,9 +628,10 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/full_team.webp) fixed center center;
   background-size: cover;
   padding: 80px 0;
+  
 }
 @media (max-width: 1024px) {
   #call-to-action {
@@ -920,6 +921,24 @@ section {
 }
 #contact .php-email-form .error-message br + br {
   margin-top: 25px;
+}
+#contact .circle{
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  background: #fafafa;
+}
+#contact img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150%;
+  padding-right: 50%;
 }
 #contact .php-email-form .sent-message {
   display: none;
